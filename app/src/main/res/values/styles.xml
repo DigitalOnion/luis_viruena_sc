@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="sandwich_detail_style" parent="AppTheme">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
 </resources>

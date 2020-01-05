@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Sandwich Club</string>
 
+    <!-- Generic -->
+    <string name="unknown">Unknown</string>
+
     <!-- Detail Activity-->
+    <string name="detail_name_label">Name:</string>
     <string name="detail_also_known_as_label">Also known as:</string>
     <string name="detail_place_of_origin_label">Place of origin:</string>
     <string name="detail_description_label">Description:</string>
@@ -27,7 +31,7 @@
     </string-array>
 
     <string-array name="sandwich_details">
-        <item>{\"name\":{\"mainName\":\"Ham and cheese
+        <item>{\"name\":{\"sandwichName\":\"Ham and cheese
             sandwich\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"\",\"description\":\"A ham and cheese
             sandwich is a common type of sandwich. It is made by putting cheese and sliced ham
             between two slices of bread. The bread is sometimes buttered and/or toasted. Vegetables
@@ -37,14 +41,14 @@
             bread\",\"Cheese\",\"Ham\"]}
         </item>
         <item>
-            {\"name\":{\"mainName\":\"Bosna\",\"alsoKnownAs\":[\"Bosner\"]},\"placeOfOrigin\":\"Austria\",\"description\":\"Bosna
+            {\"name\":{\"sandwichName\":\"Bosna\",\"alsoKnownAs\":[\"Bosner\"]},\"placeOfOrigin\":\"Austria\",\"description\":\"Bosna
             is a spicy Austrian fast food dish, said to have originated in either Salzburg or Linz.
             It is now popular all over western Austria and southern
             Bavaria.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/c/ca/Bosna_mit_2_Bratw%C3%BCrsten.jpg\",\"ingredients\":[\"White
             bread\",\"Bratwurst\",\"Onions\",\"Tomato ketchup\",\"Mustard\",\"Curry powder\"]}
         </item>
         <item>
-            {\"name\":{\"mainName\":\"Chivito\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Uruguay\",\"description\":\"Chivito
+            {\"name\":{\"sandwichName\":\"Chivito\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Uruguay\",\"description\":\"Chivito
             is a national dish of Uruguay, It is a thin slice of tender cooked beef steak
             (churrasco), with mozzarella, tomatoes, mayonnaise, black or green olives, and commonly
             also bacon, fried or hard-boiled eggs and ham, served as a sandwich in a bun, often
@@ -54,7 +58,7 @@
             beef\",\"Bacon\",\"Fried or hard-boiled eggs\",\"Ham\",\"Black or green
             olives\",\"Mozzarella\",\"Tomatoes\",\"Mayonnaise\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Club sandwich\",\"alsoKnownAs\":[\"Clubhouse
+        <item>{\"name\":{\"sandwichName\":\"Club sandwich\",\"alsoKnownAs\":[\"Clubhouse
             sandwich\"]},\"placeOfOrigin\":\"United States\",\"description\":\"A club sandwich, also
             called a clubhouse sandwich, is a sandwich of bread (occasionally toasted), sliced
             cooked poultry, fried bacon, lettuce, tomato, and mayonnaise. It is often cut into
@@ -63,7 +67,7 @@
             bread.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Club_sandwich.png/800px-Club_sandwich.png\",\"ingredients\":[\"Toasted
             bread\",\"Turkey or chicken\",\"Bacon\",\"Lettuce\",\"Tomato\",\"Mayonnaise\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Gua bao\",\"alsoKnownAs\":[\"Steamed bao\",\"Pork belly
+        <item>{\"name\":{\"sandwichName\":\"Gua bao\",\"alsoKnownAs\":[\"Steamed bao\",\"Pork belly
             bun\"]},\"placeOfOrigin\":\"Taiwan\",\"description\":\"Gua bao is a Taiwanese snack food
             consisting of a slice of stewed meat and other condiments sandwiched between flat
             steamed bread. The steamed bread is typically 6–8 centimetres (2.4–3.1 in) in size,
@@ -74,7 +78,7 @@
             peanuts.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Steamed_Sandwich%2Ctaken_by_LeoAlmighty.jpg/600px-Steamed_Sandwich%2Ctaken_by_LeoAlmighty.jpg\",\"ingredients\":[\"Steamed
             bread\",\"Stewed meat\",\"Condiments\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Medianoche\",\"alsoKnownAs\":[\"Cuban
+        <item>{\"name\":{\"sandwichName\":\"Medianoche\",\"alsoKnownAs\":[\"Cuban
             Sandwich\"]},\"placeOfOrigin\":\"Cuba\",\"description\":\"Medianoche (\\\"midnight\\\"
             in Spanish) is a type of sandwich which originated in Cuba. It is served in many Cuban
             communities in the United States. It is so named because of the sandwich\'s popularity
@@ -83,7 +87,7 @@
             bread\",\"Roast pork\",\"Ham\",\"Mustard\",\"Swiss cheese\",\"Dill pickles\"]}
         </item>
         <item>
-            {\"name\":{\"mainName\":\"Pljeskavica\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Serbia\",\"description\":\"Pljeskavica,
+            {\"name\":{\"sandwichName\":\"Pljeskavica\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Serbia\",\"description\":\"Pljeskavica,
             a grilled dish of spiced meat patty mixture of pork, beef and lamb, is a national dish
             of Serbia, also popular in Bosnia and Herzegovina and Croatia. It is a main course
             served with onions, kajmak (milk cream), ajvar (relish), and urnebes (spicy cheese
@@ -93,7 +97,7 @@
             Austria.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Pljeskavica_%286883073017%29.jpg/800px-Pljeskavica_%286883073017%29.jpg\",\"ingredients\":[\"Two
             or more of beef, lamb, pork, veal\",\"Onions\",\"Bread crumbs\",\"Lard\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Roujiamo\",\"alsoKnownAs\":[\"Rougamo\",\"Rou jia
+        <item>{\"name\":{\"sandwichName\":\"Roujiamo\",\"alsoKnownAs\":[\"Rougamo\",\"Rou jia
             mo\"]},\"placeOfOrigin\":\"China\",\"description\":\"Roujiamo, meaning \\\"meat
             burger\\\" or \\\"meat sandwich\\\", is a street food originating from the cuisine of
             Shaanxi Province and now widely consumed all over China. The meat is most commonly pork,
@@ -101,7 +105,7 @@
             possible to use only a few spices (which many vendors do), the resulting meat is less
             flavourful.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roujiamo.jpg/800px-Roujiamo.jpg\",\"ingredients\":[\"Pork\",\"bread\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Shawarma\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Middle East,
+        <item>{\"name\":{\"sandwichName\":\"Shawarma\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Middle East,
             Levant\",\"description\":\"Shawarma also spelled shawurma or shawerma, is a Levantine
             meat preparation, where lamb, chicken, turkey, beef, veal, or mixed meats are placed on
             a spit (commonly a vertical spit in restaurants), and may be grilled for as long as a
@@ -114,7 +118,7 @@
             meat (lamb, chicken, turkey, beef) or shawarma falafel\",\"Pita or wrap
             bread\",\"Chopped or shredded vegetables\",\"Pickles\",\"Assorted condiments\"]}
         </item>
-        <item>{\"name\":{\"mainName\":\"Vada Pav\",\"alsoKnownAs\":[\"Bombay Burger\",\"Vada
+        <item>{\"name\":{\"sandwichName\":\"Vada Pav\",\"alsoKnownAs\":[\"Bombay Burger\",\"Vada
             Pao\",\"Wada Pav\",\"Wada Pao\",\"Pao Vada\",\"Pav Vada\",\"Pao Wada\",\"Pav
             Wada\"]},\"placeOfOrigin\":\"India\",\"description\":\"Vada Pav is a vegetarian fast
             food dish native to the Indian state of Maharashtra. The dish consists of a deep fried

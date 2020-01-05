@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Sandwich {
 
-    private String mainName;
+    private String sandwichName;
     private List<String> alsoKnownAs = null;
     private String placeOfOrigin;
     private String description;
-    private String image;
+    private String image;           // URL for image file
     private List<String> ingredients = null;
 
     /**
@@ -17,21 +17,21 @@ public class Sandwich {
     public Sandwich() {
     }
 
-    public Sandwich(String mainName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image, List<String> ingredients) {
-        this.mainName = mainName;
+    public Sandwich(String sandwichName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image, List<String> ingredients) {
+        this.image = image;
+        this.sandwichName = sandwichName;
         this.alsoKnownAs = alsoKnownAs;
         this.placeOfOrigin = placeOfOrigin;
         this.description = description;
-        this.image = image;
         this.ingredients = ingredients;
     }
 
-    public String getMainName() {
-        return mainName;
+    public String getSandwichName() {
+        return sandwichName;
     }
 
-    public void setMainName(String mainName) {
-        this.mainName = mainName;
+    public void setSandwichName(String sandwichName) {
+        this.sandwichName = sandwichName;
     }
 
     public List<String> getAlsoKnownAs() {
