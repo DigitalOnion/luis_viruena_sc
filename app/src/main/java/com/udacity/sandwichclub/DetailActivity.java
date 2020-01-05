@@ -103,6 +103,20 @@ public class DetailActivity extends AppCompatActivity {
         tv.setText(spannable);
     }
 
+    /**
+     * appendListToTextView appends the contents of a List of Strings to the TextView. It
+     * uses spannable strings and the SpannableStringBuilder to format the list with bullets.
+     *
+     * I took some guidance from:
+     * https://stackoverflow.com/questions/42038931/what-is-leading-margin-in-android
+     * https://stackoverflow.com/questions/23196468/how-do-i-indent-a-text-line-in-textview-in-android
+     * https://stackoverflow.com/questions/4992794/how-to-add-bulleted-list-to-android-application
+     * https://stackoverflow.com/questions/33505802/android-using-spannable-for-putting-text-with-bullets-into-textview
+     * and Android Developer's reference.
+     *
+     * @param idRes
+     * @param list
+     */
     private void appendListToTextView(@IdRes int idRes, List<String> list) {
         TextView tv = findViewById(idRes);
         CharSequence content = tv.getText();
